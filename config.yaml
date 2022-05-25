@@ -21,7 +21,6 @@ params:
       url: "https://twitter.com/"
     - name: "youtube"
       url: "https://www.youtube.com/channel/UC9qxedCCniOGK9X4_5XvEbg"
-
   cover:
     linkFullImages: true
 
