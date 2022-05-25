@@ -1,0 +1,15 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <img src="{{- site.Params.homeInfoParams.iconCustomFabio | absURL -}}" alt="logo" aria-label="logo"
+                    height="{{- site.Params.homeInfoParams.iconHeightCustomFabio | default "30" -}}">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        <p>{{ .Content | markdownify }}</p>
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer>
+</article>
+{{- end -}}

@@ -1,0 +1,51 @@
+# baseURL: "http://p41m31.com/"
+baseURL: ""
+languageCode: "pt-BR"
+title: "p41m31"
+theme: "PaperMod"
+# avatar: "images/p41m31.png"
+params:
+  homeInfoParams:
+    Title: "It's the wood that should fear your hand, not the other way around"
+    Content: "Seja bem-vindo ao meu blog sobre Arquitetura, Desenvolvimento, Cybersecurity e Nerdices. Sempre com Bom Humor !!!"
+    # Eu adicionei estes dois parâmetros em um arquivo customizado em layouts/partials/home_info.html, 
+    # que é uma cópia customizada de themes/PaperMod/layouts/partials/header.html
+    iconCustomFabio: "images/p41m31_logo_site.png"
+    iconHeightCustomFabio: "100%"
+  socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com/"
+    - name: github
+      url: "https://www.github.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UC9qxedCCniOGK9X4_5XvEbg"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+  enableEmoju: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
